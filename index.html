@@ -1,22 +1,173 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-   
-   
-    <title>Portfolio</title> 
+    <title>Sanusha Sanilkumar - Software Architect Portfolio</title>
 </head>
-<body>
-    <h1>My Portfolio</h1>
-    <p>Welcome to my portfolio!</p>
-    <p>This is my portfolio's first page.</p>
-    <h2>About Me</h2>
-    <p>Here you can learn more about me and my work.</p>
-    <h2>Projects</h2>
-    <p>Here are some of my recent projects:</p>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: #f8fafc; line-height: 1.6;">
 
+    <!-- Navigation Header -->
+    <header style="position: sticky; top: 0; background-color: rgba(15, 23, 42, 0.95); backdrop-filter: blur(8px); border-bottom: 1px solid #1e293b; z-index: 1000; padding: 15px 0;">
+        <div style="max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <a href="#hero" style="font-size: 22px; font-weight: bold; color: #38bdf8; text-decoration: none; letter-spacing: 0.5px;">Sanusha Sanilkumar</a>
+            <nav style="display: flex; gap: 20px;">
+                <a href="#about" style="color: #cbd5e1; text-decoration: none; font-size: 15px; font-weight: 500;">About</a>
+                <a href="#skills" style="color: #cbd5e1; text-decoration: none; font-size: 15px; font-weight: 500;">Skills</a>
+                <a href="#hobbies" style="color: #cbd5e1; text-decoration: none; font-size: 15px; font-weight: 500;">Hobbies</a>
+                <a href="#contact" style="color: #cbd5e1; text-decoration: none; font-size: 15px; font-weight: 500;">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" style="padding: 100px 20px; text-align: center; background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); min-height: 75vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div style="max-width: 800px;">
+            <div style="width: 130px; height: 130px; border-radius: 50%; background-color: #38bdf8; display: flex; justify-content: center; align-items: center; margin: 0 auto 25px auto; color: #0f172a; font-size: 44px; font-weight: bold; border: 4px solid #0284c7; box-shadow: 0 10px 25px rgba(56, 189, 248, 0.2);">
+                SS
+            </div>
+            <h1 style="font-size: 42px; font-weight: 800; margin: 0 0 10px 0; color: #ffffff;">Sanusha Sanilkumar</h1>
+            <h2 style="font-size: 22px; font-weight: 600; color: #38bdf8; margin: 0 0 20px 0;">Software Architect</h2>
+            <p style="font-size: 18px; color: #94a3b8; margin: 0 0 30px 0; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Based in Korome. Designing robust software solutions, scalable systems, and elegant software architecture.
+            </p>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="#skills" style="background-color: #38bdf8; color: #0f172a; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Explore Skills</a>
+                <a href="#contact" style="background-color: transparent; color: #38bdf8; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600; border: 2px solid #38bdf8; display: inline-block;">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="padding: 80px 20px; max-width: 1100px; margin: 0 auto;">
+        <h2 style="font-size: 32px; text-align: center; color: #f8fafc; margin-bottom: 10px;">About Me</h2>
+        <div style="width: 60px; height: 4px; background-color: #38bdf8; margin: 0 auto 40px auto; border-radius: 2px;"></div>
+        
+        <div style="background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 35px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+            <p style="font-size: 17px; color: #cbd5e1; margin-top: 0; margin-bottom: 20px; line-height: 1.8;">
+                Hello! I am <strong>Sanusha Sanilkumar</strong>, a Software Architect based out of <strong>Korome</strong>. I specialize in system design, backend architectures, and core software engineering solutions.
+            </p>
+            <p style="font-size: 17px; color: #cbd5e1; margin-bottom: 0; line-height: 1.8;">
+                Holding a <strong>BSc in Computer Science</strong>, I have a strong foundation in computer science principles, algorithm optimization, software engineering methodologies, and high-performance computing.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education & Location Info Section -->
+    <section style="padding: 40px 20px; max-width: 1100px; margin: 0 auto;">
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <div style="background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 25px; flex: 1 1 300px; text-align: center;">
+                <h3 style="color: #38bdf8; margin-top: 0;">🎓 Education</h3>
+                <p style="font-size: 18px; font-weight: 600; color: #f8fafc; margin-bottom: 5px;">BSc Computer Science</p>
+                <p style="color: #94a3b8; margin: 0; font-size: 14px;">Bachelor of Science Degree</p>
+            </div>
+            <div style="background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 25px; flex: 1 1 300px; text-align: center;">
+                <h3 style="color: #38bdf8; margin-top: 0;">📍 Location</h3>
+                <p style="font-size: 18px; font-weight: 600; color: #f8fafc; margin-bottom: 5px;">Korome</p>
+                <p style="color: #94a3b8; margin: 0; font-size: 14px;">Available for remote & architectural consulting work</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="padding: 80px 20px; background-color: #0b1120;">
+        <div style="max-width: 1100px; margin: 0 auto;">
+            <h2 style="font-size: 32px; text-align: center; color: #f8fafc; margin-bottom: 10px;">Core Skills</h2>
+            <div style="width: 60px; height: 4px; background-color: #38bdf8; margin: 0 auto 40px auto; border-radius: 2px;"></div>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center;">
+                
+                <!-- Skill 1 -->
+                <div style="background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 30px; flex: 1 1 280px; max-width: 350px;">
+                    <h3 style="color: #38bdf8; margin-top: 0; font-size: 22px;">Python</h3>
+                    <p style="color: #cbd5e1; font-size: 15px; margin-bottom: 0;">
+                        Proficient in Python for backend architecture, data processing, automation, API design, and rapid prototyping.
+                    </p>
+                </div>
+
+                <!-- Skill 2 -->
+                <div style="background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 30px; flex: 1 1 280px; max-width: 350px;">
+                    <h3 style="color: #38bdf8; margin-top: 0; font-size: 22px;">C++</h3>
+                    <p style="color: #cbd5e1; font-size: 15px; margin-bottom: 0;">
+                        Experienced in C++ for high-performance computing, memory management, system-level architecture, and core algorithm optimization.
+                    </p>
+                </div>
+
+                <!-- Skill 3 -->
+                <div style="background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 30px; flex: 1 1 280px; max-width: 350px;">
+                    <h3 style="color: #38bdf8; margin-top: 0; font-size: 22px;">Software Architecture</h3>
+                    <p style="color: #cbd5e1; font-size: 15px; margin-bottom: 0;">
+                        Designing scalable microservices, system integration patterns, data structures, and maintainable software blueprints.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies & Interests Section -->
+    <section id="hobbies" style="padding: 80px 20px; max-width: 1100px; margin: 0 auto;">
+        <h2 style="font-size: 32px; text-align: center; color: #f8fafc; margin-bottom: 10px;">Hobbies & Interests</h2>
+        <div style="width: 60px; height: 4px; background-color: #38bdf8; margin: 0 auto 40px auto; border-radius: 2px;"></div>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center;">
+            
+            <!-- Hobby 1 -->
+            <div style="background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 25px; flex: 1 1 250px; max-width: 350px; text-align: center;">
+                <div style="font-size: 40px; margin-bottom: 15px;">✈️</div>
+                <h3 style="color: #f8fafc; margin-top: 0; font-size: 20px;">Travel</h3>
+                <p style="color: #94a3b8; font-size: 14px; margin-bottom: 0;">
+                    Exploring new destinations, experiencing diverse cultures, and discovering global perspectives.
+                </p>
+            </div>
+
+            <!-- Hobby 2 -->
+            <div style="background-color: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 25px; flex: 1 1 250px; max-width: 350px; text-align: center;">
+                <div style="font-size: 40px; margin-bottom: 15px;">💻</div>
+                <h3 style="color: #f8fafc; margin-top: 0; font-size: 20px;">Coding</h3>
+                <p style="color: #94a3b8; font-size: 14px; margin-bottom: 0;">
+                    Building side projects, exploring new algorithms, and constantly sharpening technical skills.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 80px 20px; background-color: #0b1120;">
+        <div style="max-width: 600px; margin: 0 auto;">
+            <h2 style="font-size: 32px; text-align: center; color: #f8fafc; margin-bottom: 10px;">Contact Sanusha</h2>
+            <div style="width: 60px; height: 4px; background-color: #38bdf8; margin: 0 auto 40px auto; border-radius: 2px;"></div>
+
+            <form action="#" method="POST" style="background-color: #1e293b; padding: 30px; border-radius: 12px; border: 1px solid #334155; display: flex; flex-direction: column; gap: 18px;">
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                    <label style="color: #cbd5e1; font-size: 14px; font-weight: 500;">Your Name</label>
+                    <input type="text" placeholder="Enter your name" required style="padding: 12px; background-color: #0f172a; border: 1px solid #334155; border-radius: 6px; color: #f8fafc; font-size: 15px; outline: none;">
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                    <label style="color: #cbd5e1; font-size: 14px; font-weight: 500;">Your Email</label>
+                    <input type="email" placeholder="name@example.com" required style="padding: 12px; background-color: #0f172a; border: 1px solid #334155; border-radius: 6px; color: #f8fafc; font-size: 15px; outline: none;">
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                    <label style="color: #cbd5e1; font-size: 14px; font-weight: 500;">Message</label>
+                    <textarea rows="5" placeholder="Write your message here..." required style="padding: 12px; background-color: #0f172a; border: 1px solid #334155; border-radius: 6px; color: #f8fafc; font-size: 15px; outline: none; resize: vertical;"></textarea>
+                </div>
+
+                <button type="submit" style="background-color: #38bdf8; color: #0f172a; border: none; padding: 14px; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; margin-top: 10px;">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 30px 20px; border-top: 1px solid #1e293b; text-align: center; color: #64748b; font-size: 14px;">
+        <p style="margin: 0;">&copy; 2026 Sanusha Sanilkumar. All rights reserved. | Korome</p>
+    </footer>
 
 </body>
 </html>
